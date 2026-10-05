@@ -1,0 +1,16 @@
+.git
+.gitignore
+.venv
+.venv-repro
+__pycache__
+.pytest_cache
+*.pyc
+*.pyo
+.DS_Store
+data/raw/*
+data/interim/*
+data/processed/*
+models/*
+reports/figures/*
+reports/tables/*
+reports/logs/*
