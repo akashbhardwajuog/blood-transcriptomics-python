@@ -1,10 +1,12 @@
 [build-system]
-requires = ["setuptools>=61"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "bloodml"
 version = "0.1.0"
+description = "A machine learning pipeline for blood transcriptomics"
+readme = "README.md"
 requires-python = ">=3.10"
 
 [tool.setuptools.packages.find]
