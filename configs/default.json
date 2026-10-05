@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "positive_class": "bacterial",
+  "test_fraction": 0.2,
+  "cv_folds": 5,
+  "pca_components": [10, 20, 50],
+  "logistic_c_values": [0.01, 0.1, 1.0, 10.0],
+  "torch_hidden_units": 16,
+  "torch_learning_rate": 0.001,
+  "torch_batch_size": 16,
+  "torch_epochs": 200
+}
